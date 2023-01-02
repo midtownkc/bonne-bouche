@@ -9,6 +9,15 @@
 
 ## Creating a Pull Request
 
+Before you open a pull request, please ensure that the test suite passes and there are no rubocop infractions, as these will be run by GitHub Actions before merging.
+
+Overview:
+-   To work on something new, create a descriptively named branch off of main (ie: add-new-feature)
+-   Commit to the new branch locally and regularly push your work to the same named branch on GitHub
+-   If you need feedback or help, or you think a branch is ready to merge, open a pull request
+-   Remediate issues uncovered by GitHub Actions linters & automated testing
+-   Wait for code review & suggestions
+
 ## Local Development Setup with Docker Compose
 
 1. [Install Docker Desktop](https://www.docker.com/products/docker-desktop/)

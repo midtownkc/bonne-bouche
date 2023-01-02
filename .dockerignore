@@ -40,5 +40,5 @@
 # Ignore git directory.
 /.git/
 
-# Ignore RSpec Eaxmples
+# Ignore RSpec Examples
 spec/examples.txt
