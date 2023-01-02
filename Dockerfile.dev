@@ -27,6 +27,8 @@ RUN curl -sL https://dl.google.com/linux/linux_signing_key.pub > /etc/apt/truste
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /usr/share/doc /usr/share/man
 
+WORKDIR /app
+
 # Install application gems
 COPY Gemfile Gemfile.lock ./
 RUN bundle install \
