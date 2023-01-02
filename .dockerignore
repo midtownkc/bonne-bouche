@@ -39,3 +39,6 @@
 # Everything above this should match .gitignore
 # Ignore git directory.
 /.git/
+
+# Ignore RSpec Eaxmples
+spec/examples.txt
