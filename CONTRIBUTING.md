@@ -23,7 +23,7 @@ Overview:
 1. [Install Docker Desktop](https://www.docker.com/products/docker-desktop/)
 1. [Setup Required ENVs](#setup-required-envs)
 1. Build Docker Images Locally: `docker compose build`
-1. Create the database: `docker compose run web rails db:setup`
+1. Create the database: `docker compose run web bundle exec rails db:setup`
 1. Start containers `docker compose up`
 
 ## Local Development Setup Without Docker Compose
