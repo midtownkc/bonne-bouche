@@ -21,9 +21,9 @@ Overview:
 ## Local Development Setup with Docker Compose
 
 1. [Install Docker Desktop](https://www.docker.com/products/docker-desktop/)
+1. [Setup Required ENVs](#setup-required-envs)
 1. Build Docker Images Locally: `docker compose build`
 1. Create the database: `docker compose run web rails db:setup`
-1. Create `.env` file and update its contents with valid secrets.  `cp .env.example .env`
 1. Start containers `docker compose up`
 
 ## Local Development Setup Without Docker Compose
@@ -60,3 +60,5 @@ Copy default values from `.env.example` file:
 ```zsh
 cp .env.example .env
 ```
+
+NOTE: If you are using Apple Silicon (M1, M2, etc.), you will need to uncomment the `DOCKER_DEFAULT_PLATFORM` secret to install Google Chrome for frontend testing.
