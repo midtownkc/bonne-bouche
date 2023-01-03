@@ -36,9 +36,9 @@ SimpleCov.start 'rails' do
   primary_coverage :branch
 end
 
-Webmock.enable!
+WebMock.enable!
 
-Webmock.disable_net_connect!(
+WebMock.disable_net_connect!(
   allow_localhost: true,
   allow: 'chromedriver.storage.googleapis.com'
 )
