@@ -2,7 +2,7 @@
   "name": "bonne-bouche",
   "private": "true",
   "engines": {
-    "node": "^18.12.1"
+    "node": "^16.18.1"
   },
   "dependencies": {
     "@hotwired/stimulus": "^3.2.1",
